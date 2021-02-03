@@ -3,10 +3,8 @@ import { useState, useEffect } from 'react'
 import HelloMsg from './components/HelloMsg'
 import List from './components/List'
 import './App.css'
+import Navbar from './Navbar';
 
-const orangeBgStyle = {
-  backgroundColor: "#EB5600"
-}
 
 function App() {
 
@@ -28,10 +26,13 @@ function App() {
   }
 
 
+
   //Render of JSX
   return (
     <div>
-      <List />
+      <List>
+        <Navbar />
+      </List>
 
     </div>
   )
