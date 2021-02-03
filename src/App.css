@@ -1,3 +1,44 @@
-.red_text {
-  color: red
+.root {
+  /* text-align: center; */
+  background: rgb(214, 208, 208);
+  color: rgb(87, 83, 83);
+  /* justify-content: flex-start; */
+
+}
+
+.Navbar {
+  background-color: rgb(146, 131, 131);
+  text-align: center;
+  margin-top: -20px;
+  height: 120px;
+}
+
+.Button {
+  font-size: 15px;
+  padding: 5px 30px;
+  color: rgb(146, 131, 131);
+  width: 175px;
+  border: px solid grey;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.button:hover {
+  background-color: grey;
+  color: black;
+}
+
+.flexcontainer {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Card {
+  border: 1px solid grey;
+
 }

@@ -10,10 +10,12 @@ function CharacterDetails({ msg, character }) {
 
 
     return (
-        <div key={character.id}>
+
+        <div className="Card" key={character.id}>
             <h3>{character.name}</h3>
-            <img src={character.image} alt={character.name} width="100px" />
+            <img src={character.image} alt={character.name} width="200px" />
         </div>
+
     )
 }
 

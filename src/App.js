@@ -20,22 +20,24 @@ function App() {
 
 
 
-  const handleOnClick = () => {
+  const handleOnClick = (root) => {
     console.log('clicked')
     setMessage('My new message')
   }
 
 
-
   //Render of JSX
   return (
-    <div>
-      <List>
-        <Navbar />
-      </List>
 
+    <div className="root">
+      <Navbar />
+      <div className="flexcontainer">
+        <List>
+
+        </List >
+      </div>
     </div>
-  )
+  );
 
 }
 
