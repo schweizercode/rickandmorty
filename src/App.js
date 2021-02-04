@@ -4,6 +4,7 @@ import HelloMsg from './components/HelloMsg'
 import List from './components/List'
 import './App.css'
 import Navbar from './Navbar';
+import CharacterDetails from './components/CharacterDetails';
 
 
 function App() {
@@ -33,7 +34,12 @@ function App() {
       <Navbar />
       <div className="flexcontainer">
         <List>
-
+          {/* {names.map((names) => (
+            <div className="Name-preview" key={names.id}>
+              <h2> {name.title} </h2>
+              <p> {names.status} </p>
+            </div>
+          ))} */}
         </List >
       </div>
     </div>

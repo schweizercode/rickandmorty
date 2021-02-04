@@ -25,10 +25,6 @@
 
 }
 
-.button:hover {
-  background-color: grey;
-  color: black;
-}
 
 .flexcontainer {
   text-align: center;

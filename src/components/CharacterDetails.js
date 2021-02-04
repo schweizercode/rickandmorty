@@ -11,7 +11,7 @@ function CharacterDetails({ msg, character }) {
 
     return (
 
-        <div className="Card" key={character.id}>
+        <div key={character.id}>
             <h3>{character.name}</h3>
             <img src={character.image} alt={character.name} width="200px" />
         </div>
