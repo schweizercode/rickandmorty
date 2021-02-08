@@ -5,7 +5,7 @@ const Navbar = () => {
             <h1> Rick and Morty Cards</h1>
             <input
                 onChange={(e) => {
-                    setSearch()
+                    setSearch =
                 }}
                 className="Button"
                 type="text"
