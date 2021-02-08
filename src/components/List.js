@@ -17,7 +17,6 @@ const List = () => {
         })
     }
 
-    console.log('characters', characters)
     return (
         <div>
             {characters && characters.map((character => {

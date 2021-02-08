@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react'
-import HelloMsg from './components/HelloMsg'
 import List from './components/List'
 import './App.css'
 import Navbar from './Navbar';
-import CharacterDetails from './components/CharacterDetails';
+import characterDetails from './components/CharacterDetails';
 
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
 
   useEffect(() => {
 
-  }, [])
+  }, [search])
 
 
 

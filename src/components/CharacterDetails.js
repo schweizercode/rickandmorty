@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CharacterDetails({ msg, character }) {
+function characterDetails({ msg, character }) {
     // 1st way
     // const character = props.character
     // const msg = props.msg
@@ -21,4 +21,4 @@ function CharacterDetails({ msg, character }) {
     )
 }
 
-export default CharacterDetails
+export default characterDetails
