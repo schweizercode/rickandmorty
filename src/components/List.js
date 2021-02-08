@@ -9,10 +9,11 @@ const List = () => {
     }, [])
 
     const fetchData = () => {
-        fetch("https://rickandmortyapi.com/api/character/").then(response => {
+        fetch('${https://rickandmortyapi.com/api/character/?name=}${search}').then(response => {
             return response.json()
         }).then(data => {
             setCharacters(data.results)
+
         })
     }
 

@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react'
 import HelloMsg from './components/HelloMsg'
 import List from './components/List'
@@ -9,15 +8,17 @@ import CharacterDetails from './components/CharacterDetails';
 
 function App() {
 
-  // state
-  const [message, setMessage] = useState("")
-  const [names, setNames] = useState(["Sarah", "Felix", "Lucas"])
 
-  //useEffect hook to triger function at specific events
+  const [message, setMessage] = useState("msg")
+  const [names, setnames] = useState(["id", "name", "status"])
+  const [Character, setCharacter] = useState([])
+  const [search, setSearch] = useState("")
+
+
   useEffect(() => {
-    //action
-    console.log('trigered')
+
   }, [])
+
 
 
 
@@ -25,6 +26,7 @@ function App() {
     console.log('clicked')
     setMessage('My new message')
   }
+  console.log(setMessage)
 
 
   //Render of JSX

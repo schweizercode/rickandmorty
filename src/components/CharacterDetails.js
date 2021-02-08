@@ -11,9 +11,11 @@ function CharacterDetails({ msg, character }) {
 
     return (
 
-        <div key={character.id}>
+        <div className="card"
+            key={character.id}>
             <h3>{character.name}</h3>
-            <img src={character.image} alt={character.name} width="200px" />
+            <p>status: {character.status}</p>
+            <img src={character.image} alt={character.name} key={character.id} status={character.status} width="200px" />
         </div>
 
     )
