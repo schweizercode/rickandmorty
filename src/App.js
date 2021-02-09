@@ -8,8 +8,8 @@ import characterDetails from './components/CharacterDetails';
 function App() {
 
 
-  const [message, setMessage] = useState("msg")
-  const [names, setnames] = useState(["id", "name", "status"])
+  // const [message, setMessage] = useState("msg")
+  // const [names, setnames] = useState(["id", "name", "status"])
   const [Character, setCharacter] = useState([])
   const [search, setSearch] = useState("")
 
@@ -19,13 +19,11 @@ function App() {
   }, [search])
 
 
-
-
-  const handleOnClick = (root) => {
-    console.log('clicked')
-    setMessage('My new message')
-  }
-  console.log(setMessage)
+  // const handleOnClick = (root) => {
+  //   console.log('clicked')
+  //   setMessage('My new message')
+  // }
+  // console.log(setMessage)
 
 
   //Render of JSX

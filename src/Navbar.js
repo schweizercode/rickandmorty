@@ -1,8 +1,6 @@
 import { useState, } from 'react'
 
 
-
-
 const Navbar = () => {
 
     const [search, setSearch] = useState("")

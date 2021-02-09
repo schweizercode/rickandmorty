@@ -1,6 +1,6 @@
 import React from 'react'
 
-function characterDetails({ msg, character }) {
+function characterDetails({ character }) {
     // 1st way
     // const character = props.character
     // const msg = props.msg
