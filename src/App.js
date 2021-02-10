@@ -29,20 +29,24 @@ function App() {
 
   return (
     <>
-      <input onChange={(e) => {
-        setSearch(e.target.value)
-      }}
-        value={search}
-        type="text"
-        placeholder="Search.." />
-      <div className="card">
+      <div className="Navbar">
+        <h1> Rick and Morty Cards</h1>
+        <input onChange={(e) => {
+          setSearch(e.target.value)
+        }}
+          className="input"
+          value={search}
+          type="text"
+          placeholder="Search.." />
+      </div>
+      <div className="flexcontainer">
         {results.map((result, index) => (
-          <article key={index}>
+          <div className="card" key={index}>
             <img src={result.image} alt={`photo of ${result.name}`} />
             <h2> {result.name}</h2>
             <p> {result.species}</p>
             <p> {result.status}</p>
-          </article>
+          </div>
         ))}
       </div >
     </>

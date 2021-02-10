@@ -6,14 +6,15 @@
 
 }
 
+
 .Navbar {
-  background-color: rgb(146, 131, 131);
+  background-color: rgb(198, 238, 240);
   text-align: center;
-  margin-top: 20px;
   height: 120px;
+  margin-top: -25px;
 }
 
-.Button {
+.input {
   font-size: 15px;
   padding: 5px 30px;
   color: rgb(146, 131, 131);
@@ -25,16 +26,24 @@
 
 }
 
-
 .flexcontainer {
+  background-color: rgb(198, 238, 240);
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  /* margin-top: 10px; */
+  justify-content: space-around;
+
 }
 
-.Card {
-  border: 1px solid grey;
+.card {
+  background-color: rgb(198, 238, 240);
+  color: rgb(63, 115, 124);
+  display: flex;
+  margin: 10px;
+  width: 20%;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px solid;
 
 }
